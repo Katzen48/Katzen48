@@ -18,7 +18,7 @@ jobs:
           base: header, activity, repositories
           plugin_lines: yes
           plugin_lines_history_limit: 5
-          plugin_lines_sections: repositories, history
+          plugin_lines_sections: repositories
           plugin_lines_delay: 30
           plugin_habits: yes
           plugin_wakatime: yes
