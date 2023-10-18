@@ -15,6 +15,12 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
+          base: header, activity, repositories
+          plugin_lines: yes
+          plugin_lines_history_limit: 5
+          plugin_lines_sections: repositories, history
+          plugin_lines_delay: 30
+          plugin_habits: yes
           plugin_wakatime: yes
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
           plugin_wakatime_days: 365
