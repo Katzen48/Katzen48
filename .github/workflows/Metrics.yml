@@ -17,6 +17,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           config_timezone: Europe/Berlin
           base: header, activity, repositories
+          repositories_skipped: Katzen48/Katzen48
           plugin_lines: yes
           plugin_lines_history_limit: 5
           plugin_lines_sections: repositories
